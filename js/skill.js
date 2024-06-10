@@ -17,13 +17,13 @@ skills.forEach( skill => {
     else if(e.target.innerText === "JavaScript") {
       i = 1;
     }
-    else if(e.target.innerText === "Git(planning)") {
+    else if(e.target.innerText === "Git(예정)") {
       i = 2;
     }
-    else if(e.target.innerText === "Phyton(planning)") {
+    else if(e.target.innerText === "Phyton(예정)") {
       i = 3;
     }
-    else if(e.target.innerText === "NodeJS(planning)") {
+    else if(e.target.innerText === "NodeJS(예정)") {
       i = 4;
     }
     skills[i].classList.toggle(`neon${i}`);
@@ -38,13 +38,13 @@ skills.forEach( skill => {
     else if(e.target.innerText === "JavaScript") {
       i = 1;
     }
-    else if(e.target.innerText === "Git(planning)") {
+    else if(e.target.innerText === "Git(예정)") {
       i = 2;
     }
-    else if(e.target.innerText === "Phyton(planning)") {
+    else if(e.target.innerText === "Phyton(예정)") {
       i = 3;
     }
-    else if(e.target.innerText === "NodeJS(planning)") {
+    else if(e.target.innerText === "NodeJS(예정)") {
       i = 4;
     }
     skills[i].classList.toggle(`neon${i}`);

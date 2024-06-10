@@ -4,26 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skill.css">
 </head>
 <body>
+<main>
+  <header>
+  <!-- 한남대 자기소개 프로젝트 description  -->
+  <!-- 나의 사진 넣기 및 자기소개 -->
   <!-- 클릭해서 모달 박스 형태로 이름 소속 보여주기 -->
+  <!-- 이미지에 미디어 쿼리 적용하기 -->
   <h1>자기소개</h1>
     <ol>
-      <li>Affiliation : Hannam Univ. Computer Engineering</li>
-      <li>My Name: Hyeon Jae Lee</li>
+      <li>소속: 한남대, 컴퓨터공학과</li>
+      <li>이름: 이현재</li>
     </ol>
-  <img src="images/upoMarshFreedom.jpg" width ="100%" alt="우포늪에서 시원한 바람을 즐기는 해당 웹 제작자">
- <!-- 나의 스킬 5가지 작성 -->
-  <h2>My Coding Skill (If you move your mouse over the skills, you can experience neon effects of the skills)</h2>
+  <img src="images/upoMarshFreedom.jpg" width ="500px" alt="우포늪에서 시원한 바람을 즐기는 해당 웹 제작자 사진입니다.">
+  </header>
+  <section>
+<!-- 나의 스킬 5가지 작성 -->
+  <h2>나의 스킬 5가지 (마우스를 원 위에 올리시면, 각각의 네온효과를 경험하실 수 있습니다.)</h2>
     <div id="skills_section">
       <div class ="skills" id="skill_one">C Language</div>
       <div class ="skills" id="skill_two">JavaScript</div>
-      <div class ="skills" id="skill_three">Git(planning)</div>
-      <div class ="skills" id="skill_four">Phyton(planning)</div>
-      <div class ="skills" id="skill_five">NodeJS(planning)</div>
+      <div class ="skills" id="skill_three">Git(예정)</div>
+      <div class ="skills" id="skill_four">Phyton(예정)</div>
+      <div class ="skills" id="skill_five">NodeJS(예정)</div>
     </div>
+  </section>
+<!-- 프로젝트 수행경험 혹은 예정 5가지 및 관련 이미지 넣기 -->
+ 닫기버튼 css적용/ 그림 미디어쿼리 적용/ 버튼위치 변경/ 텍스트 표시 영역 위치 변경/ 전체적으로 가운데 정렬/ 자동 스크롤 구현
+ 깃허브 하이퍼링크 새창에서 열기/ 
+  <section>
+  <h2>프로젝트 수행 경험 5가지<br>
+    [버튼을 클릭하시면 프로젝트에 대한 세부내용 및 계획을 보실 수 있습니다.]<br>
+    [닫기 버튼으로 세부내용을 숨김처리 할 수 있습니다.]
+  </h2>
+    <h3>텍스트 게임 프로젝트 수행 (부산헹(1), 부산헹(2), 한남대학교 컴퓨터공학과 장준혁 교수님 프로그래밍 실습 수업 과제)</h3>
+      <img src="images/busanHang.jpg" width="500px" alt="부산헹 프로젝트의 인트로 아스키아트 사진입니다.">
+      <button>프로젝트 세부 내용 보기</button>
+      <div id="textGame"></div>
+  
+    <h3>힐링 글, 이미지 제공하는 웹페이지 디자인 작성 프로젝트(예정)</h3>
+      <img src="images/webDesign.jpg" width="500px" alt="힐링을 주는 이미지와 글을 제공하는 웹을 상징하는 그림입니다.">
+      <button>프로젝트 세부 내용 보기</button>
+      <div id="healingWeb"></div>
 
-  <script src="js/introduce.js"></script>
+   <h3>서버, 데이터베이스 프로젝트(예정)</h3>
+      <img src="images/serverDatabase.jpg" width="500px" alt="서버와 데이터베이스를 상징하는 그림입니다.">
+      <button>프로젝트 세부 내용 보기</button>
+      <div id="serverDataProject"></div>
+
+    <h3>보안 및 광고 수익창출 기능 프로젝트(예정)</h3>
+      <img src="images/profitSecurity.jpg" width="500px" alt="수익창출과 보안을 상징하는 그림입니다.">
+      <button>프로젝트 세부 내용 보기</button>
+      <div id="securityMoney"></div>
+  
+    <h3>AI 프로젝트(예정)</h3>
+      <img src="images/aiProject.jpg" width="500px" alt="맞춤형 정보를 제공하는 인공지능을 상징하는 그림입니다.">
+      <button>프로젝트 세부 내용 보기</button>
+      <div id="aiProject"></div>
+  </section>
+
+  <!-- 나의 장래 희망 직무 5가지 -->
+  <!-- 가운데에 빈 공간 생성 키보드 누를때마다 이미지 생성 변수 지속적으로 증가 배열 범위 벗어날 때 다시 처음부터 생성자 함수 사용 -->
+  <footer>
+  1. 웹 서버 개발자
+  2. 앱 서버 개발자
+  <div></div>
+  3. 게임 서버 개발자
+  4. 인공지능 개발자
+  5. 보안 개발자
+  <h3>사진 및 그림 출처</h3>
+  <ul>
+    <li>그림: 해당 웹 제작자가 삼성노트를 이용해서 그린 그림</li>
+    <li>부산헹(2) 인트로 함수 이미지: 해당 웹 제작자가 작성한 코드</li>
+    <li>사진들: 해당 웹 제작자가 직접 찍은 사진</li>
+  </ul>
+  </footer>
+  </main>
+  <script src="js/skill.js"></script>
+  <script src="js/project.js"></script>
 </body>
 </html>
