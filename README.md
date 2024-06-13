@@ -39,6 +39,8 @@ Web Programming Class Self-Introduction Homepage Submit Hyeon Jae Lee
 ## _나의 장래 희망 직무 5가지_
 + job.css
 + job.js
++ 인덱스에 해당하는 번호 입력시 직무에 해당하는 사진 보기 기능 구현
++ 인덱스에 해당하는 번호 입력 시 표의 테두리 색깔 변경으로 확인한 직무 표시 기능 구현
   + __class 이용 사용자 객체 생성__
   + __인스턴스 객체 생성__
   + __prototype프로퍼티 이용 함수 추가__
