@@ -1,0 +1,57 @@
+#projectSemantic img {
+  border:10px groove rgba(69, 194, 247, 0.9);
+}
+
+#projectSemantic {
+  border: 5px solid rgba(6, 224, 133, 0.908);
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#projectSemantic > h2 {
+  border-bottom: 5px solid rgba(6, 224, 133, 0.908);
+  padding-bottom: 25px;
+}
+
+.deleteButton {
+  border: 5px inset rgba(4, 178, 205, 0.651);
+  font-size: 15px;
+}
+
+/* flexbox 기능 이용해서 가로 정렬 및 크로스 축 기준 위로 정렬  */
+#busanHang {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: start;
+  border: 5px dashed rgba(6, 220, 224, 0.589);
+}
+
+#webDesign {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: start;
+  border: 5px dashed rgba(6, 220, 224, 0.589);
+}
+
+#serverDatabase {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: start;
+  border: 5px dashed rgba(6, 220, 224, 0.589);
+}
+
+#profitSecurity {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: start;
+  border: 5px dashed rgba(6, 220, 224, 0.589);
+}
+
+#aiFlexbox {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: start;
+  border: 5px dashed rgba(6, 220, 224, 0.589);
+}
+

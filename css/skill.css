@@ -1,7 +1,75 @@
-/* 원형 박스안 스킬 작성 css */
+/* 전체적인 포트크기 조정 */
+* {
+  font-size: 20px;
+}
+
+/* 홈페이지 이름 css */
+#homepageName {
+ text-align: center;
+ font-size: 100px;
+ border-bottom: 5px solid rgba(4, 132, 8, 0.986);
+ border-top: 5px solid rgba(4, 132, 8, 0.986);
+ padding-bottom: 10px; 
+ margin-bottom: 150px;
+ margin-left: 200px;
+ margin-right: 200px;
+}
+
+/* 자기소개 css */
+header {
+  border: 5px solid rgba(224, 191, 6, 0.908);
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+header > h2 {
+  border-bottom: 5px solid rgba(224, 191, 6, 0.908);
+  padding-bottom: 25px;
+}
+
+
+
+#selfIntroduce {
+  display: flex;
+  flex-direction: row;
+  flex-wrap : wrap;
+  padding-bottom: 25px;
+}
+
+/* 이미지 미디어쿼리로 크기 조절 */
+@media(max-width: 1500px) {
+  #authorImage {
+    width: 300px;
+  }
+}
+
+
+/* 나의 스킬 5가지 css */
+#skillSemantic {
+  border: 5px solid rgba(252, 173, 15, 1);
+  padding-bottom: 25px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#skillSemantic > h2 {
+  border-bottom : 5px solid rgba(252, 173, 15, 1);
+  padding-bottom: 25px;
+}
+
+/* 스킬 박스 그리드 적용 및 가운데 정렬 */
 #skills_section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+@media(max-width: 2150px) {
+  #skills_section {
+    grid-template-columns: 300px 300px 300px 300px 300px;
+  }
 }
 
 #skills_section >.skills {
@@ -16,6 +84,7 @@
   width: 285px;
 }
 
+/* 스킬 박스 경계 및 네온 효과 */
 #skills_section >div:nth-child(1) {
   border-color : rgba(235, 41, 41, 0.9); 
 }

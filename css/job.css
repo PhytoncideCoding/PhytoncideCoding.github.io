@@ -1,0 +1,67 @@
+#jobSemantic {
+  border: 5px solid rgba(97, 6, 224, 0.908);
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#jobSemantic > h2 {
+  border-bottom: 5px solid rgba(97, 6, 224, 0.908);
+  padding-bottom: 25px;
+}
+
+#jobResult{
+  width: 600px;
+  height: 350px;
+  border: 5px solid;
+  border-color: rgba(238, 153, 26, 0.8);
+}
+
+.tableRow0 {
+  border: 5px solid rgba(236, 72, 46, 0.801);
+}
+
+.tableRow1 {
+  border: 5px solid rgba(240, 185, 19, 0.801);
+}
+
+.tableRow2 {
+  border: 5px solid rgba(156, 224, 39, 0.801);
+}
+
+.tableRow3 {
+  border: 5px solid rgba(47, 229, 229, 0.801);
+}
+
+.tableRow4 {
+  border: 5px solid rgba(12, 85, 220, 0.801);
+}
+
+#jobs {
+  border: 3px dotted black;   
+}
+
+th, td {
+  border: 2px dotted black;
+}
+
+table {
+  height: 350px;
+}
+
+#jobQuestion {
+  height:50px;
+  margin-bottom: 30px;
+  border:5px solid rgba(156, 224, 39, 0.801);
+}
+
+#jobFlexbox {
+  display: flex;
+}
+
+#labelButton {
+  font-size: 20px;
+  border: 5px groove rgba(156, 224, 39, 0.801);
+  padding-top: 7px;
+  padding-bottom: 16px;
+}
