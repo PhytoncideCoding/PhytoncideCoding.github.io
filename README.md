@@ -1,4 +1,6 @@
-# 주소: [PhytoncideCoding.github.io] (https://phytoncidecoding.github.io/)
+# 웹페이지 주소: https://phytoncidecoding.github.io/
+# Github Name: PhytoncideCoding
+# Github Repository Address: https://github.com/PhytoncideCoding/PhytoncideCoding.github.io.git 
 Web Programming Class Self-Introduction Homepage Submit Hyeon Jae Lee
 1. 소속: 한남대학교 컴퓨터공학과
 2. 이름: 이현재
